@@ -35,3 +35,5 @@ To explore more CSS properties, check out the [MDN CSS Reference](https://develo
   
 ## Table of Contents
 - [CSS - Getting Started](./CSS(GettingStarted))
+- [CSS (Part-2)](./CSS(Part-2))
+- [CSS (Part-3)](./CSS(Part-3))
