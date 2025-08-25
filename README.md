@@ -10,5 +10,12 @@ Includes mini projects, a full-stack app, and practice materials to reinforce le
 - Files are named to match their respective topics for easy identification.  
 - Both notes and practical code examples are included for hands-on learning.
 
+## Repository Overview
+> ✨ This section will continue to grow as more topics are added:
+
+- **HTML**
+  - [Level 1 - Part A](./HTML/Level%201%20-%20(Part%20A))
+  - [Level 1 - Part B](./HTML/Level%201%20-%20(Part%20B))
+
 ## License
 This project is licensed under the [MIT License](./LICENSE).
