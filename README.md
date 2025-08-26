@@ -16,6 +16,7 @@ Includes mini projects, a full-stack app, and practice materials to reinforce le
 - **HTML**
   - [Level 1 - Part A](./HTML/Level%201%20-%20(Part%20A))
   - [Level 1 - Part B](./HTML/Level%201%20-%20(Part%20B))
+  - [Level 2](./HTML/Level%202)
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
