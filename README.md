@@ -20,6 +20,7 @@ Includes mini projects, a full-stack app, and practice materials to reinforce le
   - [Level 3](./HTML/Level%203)
 - **CSS**
   - [Getting Started](./CSS/Getting%20Started)
+  - [Part 2](./CSS/Part%202)
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
