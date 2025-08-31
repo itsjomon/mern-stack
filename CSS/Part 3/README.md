@@ -2,6 +2,9 @@
 
 The **CSS Box Model** describes the rectangular boxes generated for elements in the document tree. Every HTML element is essentially a box with four areas: **content**, **padding**, **border**, and **margin**. Understanding this model is essential to control spacing, sizing, and layout of elements in your webpage.
 
+## Box Model Structure
+<img src="https://github.com/user-attachments/assets/c766c380-bfe2-4789-bc62-a985189c7100" hight="150px" width="400px">
+
 ## Height
 By default, it sets the content area height of the element.
 ```css
@@ -151,6 +154,9 @@ display: inline-block;/* Behaves like inline, but allows width & height */
 display: none;        /* Hides the element entirely */
 ```
 [MDN Display Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+
+## Inline Vs Block
+<img src="https://github.com/user-attachments/assets/a6603792-3750-4303-8984-f63ca8159b80" hight="150px" width="400px">
 
 # Units in CSS
 
