@@ -22,6 +22,7 @@ Includes mini projects, a full-stack app, and practice materials to reinforce le
   - [Getting Started](./CSS/Getting%20Started)
   - [Part 2](./CSS/Part%202)
   - [Part 3](./CSS/Part%203)
+  - [Part 4](./CSS/Part%204)
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
