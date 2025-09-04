@@ -24,6 +24,7 @@ Includes mini projects, a full-stack app, and practice materials to reinforce le
   - [Part 3](./CSS/Part%203)
   - [Part 4](./CSS/Part%204)
   - [Part 5](./CSS/Part%205)
+  - [Part 6](./CSS/Part%206)
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
