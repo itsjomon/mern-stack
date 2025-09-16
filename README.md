@@ -18,6 +18,18 @@ Includes mini projects, a full-stack app, and practice materials to reinforce le
   - [Level 1 - Part B](./HTML/Level%201%20-%20(Part%20B))
   - [Level 2](./HTML/Level%202)
   - [Level 3](./HTML/Level%203)
+- **CSS**
+  - [CSS - Getting Started](./CSS/Getting%20Started)
+  - [CSS - Part 2](./CSS/Part%202)
+  - [CSS - Part 3](./CSS/Part%203)
+  - [CSS - Part 4](./CSS/Part%204)
+  - [CSS - Part 5](./CSS/Part%205)
+  - [CSS - Part 6](./CSS/Part%206)
+  - [Mini Project (CSS)](./CSS/Mini%20Project)
+  - [Project (CSS)](./CSS/Project)
+- [Bootstap](./Bootstrap)
+- [Terminal](./Terminal)
+- [Git & GitHub](./Git%20%26%20GitHub)
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
