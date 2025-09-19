@@ -9,7 +9,7 @@ Read-Evaluate-Print-Loop
 ## What is a Variable?
 A variable is simply the name of a strong location.
 
-<img src="" hight="150px" width="400px">
+<img src="https://github.com/user-attachments/assets/3704c2d4-ab47-49f7-b7a8-021f50c491a6" hight="150px" width="400px">
 
 ## Data Types in JS
 
@@ -297,7 +297,7 @@ let sentence = "this is 'apple'";
 ### String Indices
 JS is a 0 based indexing programming language
 
-<img src="" hight="150px" width="400px">
+<img src="https://github.com/user-attachments/assets/5fd0fa4f-61f4-46ac-a2d3-de799e6d66f8" hight="150px" width="400px">
 
 ### Concatenation
 adding strings together
