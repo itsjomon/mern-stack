@@ -28,6 +28,8 @@ Includes mini projects, a full-stack app, and practice materials to reinforce le
   - [Mini Project (CSS)](./CSS/Mini%20Project)
   - [Project (CSS)](./CSS/Project)
 - [Bootstap](./Bootstrap)
+- **Java Script**
+  - [JavaScript - Part 1](./JavaScript/Part%201)
 - [Terminal](./Terminal)
 - [Git & GitHub](./Git%20%26%20GitHub)
 
