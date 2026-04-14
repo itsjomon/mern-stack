@@ -6,3 +6,4 @@ Full stack web development using MERN (MongoDB, Express, React, Node.js), along 
 
 - [HTML](html)
   * [Level 1 - Part A](html/level-1/part-a)
+  * [Level 1 - Part B](html/level-1/part-b)
