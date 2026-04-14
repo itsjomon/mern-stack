@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ans 1 -->
+    <table border="1">
+        <caption>A test table with merged cells</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red eyes</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Ans 2 -->
+    <form action="https://www.google.com/search?">
+        <input type="text" placeholder="search in google" name="q">
+        <button>Search</button>
+    </form>
+
+    <hr>
+
+    <!-- Ans 3 -->
+    <h3>Registration Form</h3>
+    <form action="/Server">
+        <div>
+            <input type="text" placeholder="First Name" name="fname">
+            <input type="text" placeholder="Last Name" name="lname">
+        </div>
+        <div>
+            <label for="gender">Please select your gender</label>
+            <select name="gender" id="gender">
+                <option value="m" selected>Male</option>
+                <option value="f">Female</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all terms of service?
+            <input type="checkbox" id="tos_agree"  name="tos">
+            <label for="tos_agree">Yes, I agree</label>
+        </div>
+        <button>Register</button>
+    </form>
+
+    <hr>
+
+    <!-- Ans 4 -->
+    <table border="1">
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Ans 5 -->
+    <form action="/server">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="sex">Sex:</label>
+        <input type="radio" id="male" name="sex" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option value="None">Select an option</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+        </select>
+        <br><br>
+
+        <label for="msg">Message:</label><br>
+        <textarea id="msg" name="msg" cols="30" rows="4"></textarea>
+        <br><br>
+
+        <input type="checkbox" name="news" id="news">
+        <label for="news">Subscribe</label>
+        <br><br>
+
+        <button>Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Ans 6 -->
+    <h3>Feedback Form</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Write your name">
+        <br><br>
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Write your email">
+        <br><br>
+
+        <label for="msg">Message:</label><br>
+        <textarea id="msg" name="msg" cols="30" rows="4"></textarea>
+        <br><br>
+
+        <label for="rating">Rate us out of 5:</label>
+        <br>
+        <input type="radio" name="rating" id="1" value="1">
+        <label for="1">1</label>
+        <br>
+        <input type="radio" name="rating" id="2" value="2">
+        <label for="2">2</label>
+        <br>
+        <input type="radio" name="rating" id="3" value="3">
+        <label for="3">3</label>
+        <br>
+        <input type="radio" name="rating" id="4" value="4">
+        <label for="4">4</label>
+        <br>
+        <input type="radio" name="rating" id="5" value="5">
+        <label for="5">5</label>
+        <br><br>
+        
+        <button>Send your message!</button>
+    </form>
+</body>
+</html>
