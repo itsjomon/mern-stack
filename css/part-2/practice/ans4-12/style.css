@@ -1,0 +1,47 @@
+/* Ans 4 */
+#main-topic {
+    color: blue;
+}
+
+/* Ans 5 */
+*{
+    text-align: center;
+}
+
+/* Ans 6 */
+h1,h3,h5 {
+    font-family: Georgia;
+}
+
+/* Ans 7 */
+.content {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* Ans 8 */
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+/* Ans 9 */
+button:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+/* Ans 10 */
+p:nth-of-type(odd) {
+    color: yellow;
+}
+
+/* Ans 11 */
+h1::first-letter {
+    color: red;
+}
+
+/* Ans 12 */
+#yes:checked + label {
+    color: darkgreen;
+}
