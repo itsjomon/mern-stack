@@ -1,0 +1,5 @@
+li {
+    display: inline-block;
+}
+
+/* Bullets only stick to block elements. When you make li inline or inline-block, it's no longer a block, so the bullet falls off. */
