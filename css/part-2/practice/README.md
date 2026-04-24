@@ -60,7 +60,7 @@ p#title {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 id="main-topic">CSS Practice</h1>
@@ -75,7 +75,7 @@ p#title {
             <h5> Did you like the practice set?</h5>
             <input type="checkbox" id="yes"/>
             <label for="yes">Yes</label>
-            <br/>
+            <br>
             <button>Learn next!</button>
         </div>
 </body>
