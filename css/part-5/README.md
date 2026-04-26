@@ -4,7 +4,7 @@ Flexible Box Layout
 
 It is a one-dimensional layout method for arranging items in rows or columns.
 
-[Flexbox Cheat sheet](flowbox-summary.pdf)
+[Flexbox Cheat sheet](flexbox-summary.pdf)
 
 In a flex layout, you apply the display property with a value of flex or inline-flex to an element to define it as a flex container. This enables a flex context for all its direct children, known as flex items.
 
