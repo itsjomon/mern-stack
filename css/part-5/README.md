@@ -17,6 +17,10 @@ display: inline-flex;   /* Inline version of flex container */
 
 <img src="main/flex-general-example.png" alt="General Example" width="300px">
 
+<br>
+
+**Flex Model:** <br> <img src="main/flex-model.png" alt="Flex Model Diagram" width="400px">
+
 ## flex-direction
 
 It sets flex items are placed in the flex container, along which axis and direction.
