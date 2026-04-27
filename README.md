@@ -16,3 +16,4 @@ Full stack web development using MERN (MongoDB, Express, React, Node.js), along 
   * [Part 4](css/part-4)
   * [Part 5](css/part-5)
   * [Part 6](css/part-6)
+  * [Mini Project (Navbar)](css/mini-project)
