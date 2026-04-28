@@ -6,12 +6,10 @@ It is a language that is used to style HTML elements. It contains **properties**
 
 ```css
 h1 {
-  color: blue;
+  color: blue; /* property: value */
 }
 
-/* h1 is Selector */
-/* color is Property */
-/* blue is Value */
+/* Selector = h1, Property = color, Value = blue */
 ```
 
 To explore more CSS properties, check out the [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).
@@ -23,7 +21,9 @@ To explore more CSS properties, check out the [MDN CSS Reference](https://develo
 Writing style directly inline on each element
 
 ```html
-<h1 style="color: red;"> Hello World! </h1>
+<!-- Inline style (not recommended for large use) -->
+
+<h1 style="color: red;"> Hello World! </h1> <!-- Put directly inside any HTML tag -->
 ```
 
 ### Using Style Tag
@@ -31,11 +31,13 @@ Writing style directly inline on each element
 Style is added using the `<style>` element in the same document
 
 ```html
+<!-- Style tag (good for single-page demos) -->
+
 <style>
     h1 {
         color:red;
     }
-</style>
+</style> <!-- Put inside <head> section -->
 ```
 
 ### External Style Sheet
@@ -43,18 +45,9 @@ Style is added using the `<style>` element in the same document
 Writing CSS in a separate document & linking it with HTML file
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Linking HTML with CSS File -->
-    <link rel="stylesheet" href="style.css">
+<!-- External stylesheet (best for real projects) -->
 
-    <title>Document</title>
-</head>
-<body>
-
-</body>
-</html>
+<link rel="stylesheet" href="style.css"> <!-- Put inside <head> section -->
 ```
 
 ## Color Property
@@ -62,8 +55,7 @@ Writing CSS in a separate document & linking it with HTML file
 Used to set the color of foreground
 
 ```css
-color: purple;
-color: #ffffff;
+color: #ffffff; /* Sets text/foreground color to white */
 ```
 
 ## Background Color Property
@@ -71,8 +63,7 @@ color: #ffffff;
 Used to set the color of background
 
 ```css
-background-color: purple;
-background-color: #ffffff;
+background-color: purple; /* Sets background color to purple */
 ```
 
 ## Color Systems
@@ -86,21 +77,21 @@ background-color: #ffffff;
 ## Text Properties
 
 ```css
-text-align
-text-decoration
-line-height
-letter-spacing
+text-align      /* HORIZONTAL alignment: left/right/center/justify */
+text-decoration /* DECORATIVE lines: underline/overline/line-through */
+line-height     /* VERTICAL spacing between lines */
+letter-spacing  /* HORIZONTAL space between characters */
 ```
 
 ### text-align
 
 ```css
-text-align: left/start;
-text-align: right/end;
-text-align: center;
-text-align: justify;
-
 /* Relative to the parent element */
+
+text-align: left/start; /* Aligns text to left edge */
+text-align: right/end;  /* Aligns text to right edge */
+text-align: center;     /* Centers text horizontally */
+text-align: justify;    /* Stretches text to fill full width */
 ```
 
 ### text-decoration
@@ -108,14 +99,14 @@ text-align: justify;
 Sets the appearance of decorative lines on text like underline
 
 ```css
-text-decoration: underline;
-text-decoration: overline;
-text-decoration: line-through;
-text-decoration: red underline;
-text-decoration: wavy overline;
-text-decoration: wavy blue underline;
-text-decoration: dotted line-through;
-text-decoration-color: red;
+text-decoration: underline;           /* Line BELOW text */
+text-decoration: overline;            /* Line ABOVE text */
+text-decoration: line-through;        /* Line THROUGH text (strikethrough) */
+text-decoration: red underline;       /* Red line below text */
+text-decoration: wavy overline;       /* Wavy line above text */
+text-decoration: wavy blue underline; /* Wavy blue line below text */
+text-decoration: dotted line-through; /* Dotted line through text */
+text-decoration-color: red;           /* Changes ONLY the line color */
 ```
 
 ### line-height
@@ -124,7 +115,7 @@ Controls the height of the line of text
 
 ```css
 line-height: normal;
-line-height: 2.5; /* 2.5*Normal */
+line-height: 2.5; /* 2.5x normal line height (increases vertical gap) */
 ```
 
 ### letter-spacing
@@ -133,15 +124,15 @@ Controls the horizontal spacing behavior between text characters
 
 ```css
 letter-spacing: normal;
-letter-spacing: 10px;
+letter-spacing: 10px; /* Adds 10px gap between each letter */
 ```
 
 ## Font Properties
 
 ```css
-font-family
-font-size
-font-weight
+font-family /* Which font type/design to use */
+font-size   /* How big or small the text appears */
+font-weight /* How bold or light the text is (100-900) */
 ```
 
 ### font-family
@@ -149,8 +140,8 @@ font-weight
 Specifies a prioritized list of one or more font family names
 
 ```css
-font-family: arial;
-font-family: avant garde, didot, sans-serif; /* backup family of fonts */
+font-family: arial;             /* Use Arial font */
+font-family: arial, sans-serif; /* Fallback to sans-serif if Arial missing */
 ```
 
 To explore more CSS fonts, check out the [CSS Font Stack](https://www.cssfontstack.com/).
@@ -181,11 +172,9 @@ To explore more CSS fonts, check out the [CSS Font Stack](https://www.cssfontsta
 ### font-weight
 
 ```css
-font-weight: normal; /* 400 */
-font-weight: bold;   /* 700 */
-font-weight: 100;
-font-weight: bolder;
-font-weight: lighter;
-
-/* 100 - 900 */
+font-weight: normal;  /* 400 - regular thickness */
+font-weight: bold;    /* 700 - thick/bold */
+font-weight: 100;     /* Very thin (range 100-900, 100=thinnest, 900=thickest) */
+font-weight: bolder;  /* Bolder than parent element */
+font-weight: lighter; /* Lighter than parent element */
 ```

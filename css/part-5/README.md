@@ -10,16 +10,14 @@ In a flex layout, you apply the display property with a value of flex or inline-
 
 ```css
 container {
-display: flex;          /* Turns element into a flex container */
-display: inline-flex;   /* Inline version of flex container */
+display: flex;        /* Turns element into a flex container */
+display: inline-flex; /* Inline version of flex container */
 }
 ```
 
-<img src="main/flex-general-example.png" alt="General Example" width="300px">
+<img src="main/flex-general-example.png" alt="General Example" width="400px">
 
-<br>
-
-**Flex Model:** <br> <img src="main/flex-model.png" alt="Flex Model Diagram" width="400px">
+**Flex Model:** <br> <img src="main/flex-model.png" alt="Flex Model Diagram" width="600px">
 
 ## flex-direction
 
@@ -60,10 +58,10 @@ flex-wrap: wrap-reverse; /* Items wrap upward */
 Distributes items along the cross axis.
 
 ```css
-align-items: flex-start;    /* Items at top */
-align-items: flex-end;      /* Items at bottom */
-align-items: center;        /* Items vertically centered */
-align-items: baseline;      /* Items align by text baseline */
+align-items: flex-start; /* Items at top */
+align-items: flex-end;   /* Items at bottom */
+align-items: center;     /* Items vertically centered */
+align-items: baseline;   /* Items align by text baseline */
 ```
 
 ## align-content
@@ -87,10 +85,10 @@ Align an item along the cross axis.
 ```css
 /* align-self: Overrides align-items for a single flex item */
 
-align-self: flex-start; /* This item at top */
-align-self: flex-end;   /* This item at bottom */
-align-self: center;     /* This item centered */
-align-self: baseline;   /* This item aligns by text baseline */
+align-self: flex-start; /* Item at top */
+align-self: flex-end;   /* Item at bottom */
+align-self: center;     /* Item centered */
+align-self: baseline;   /* Item aligns by text baseline */
 ```
 
 ## Flex Sizing
@@ -100,7 +98,7 @@ align-self: baseline;   /* This item aligns by text baseline */
 It sets the initial main size of a flex item.
 
 ```css
-flex-basis: 100px;
+flex-basis: 100px; /* Starting size */
 ```
 
 ### flex-grow
@@ -108,7 +106,7 @@ flex-basis: 100px;
 It specifies how much of the flex container's remaining space should be assigned to the flex item's main size
 
 ```css
-flex-grow: 1;
+flex-grow: 1; /* Takes available space proportionally */
 ```
 
 ### flex-shrink
@@ -116,7 +114,8 @@ flex-grow: 1;
 It sets the flex shrink factor of a flex item.
 
 ```css
-flex-shrink: 1;
+flex-shrink: 1; /* Shrinks proportionally when needed */
+
 ```
 
 ### Shorthand Syntax

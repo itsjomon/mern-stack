@@ -5,7 +5,7 @@ Sets the opacity for a color
 Ranges from 0 to 1
 
 ```css
-rgba(255, 255, 255, 0.3);
+rgba(255, 255, 255, 0.3); /* White with 30% opacity */
 ```
 
 ## opacity
@@ -15,7 +15,7 @@ Sets the opacity for the element
 Ranges from 0 to 1
 
 ```css
-opacity: 0.5;
+opacity: 0.5; /* Element is 50% transparent */
 ```
 
 ## transition
@@ -35,22 +35,23 @@ transition: margin-top 2s ease-in-out 0.2;
 This property lets you rotate, scale, skew, or translate an element
 
 ```css
-/* rotate */
-transform: rotate(45deg);
+/* Rotate */
+transform: rotate(45deg);         /* Rotates 45 degrees */
 
-/* scale */
-transform: scale(0.5);
-transform: scale(0.5, 2);
-transform: scaleX(0.5);
-transform: scaleY(0.5);
+/* Scale */
+transform: scale(0.5);            /* Shrinks to 50% size */
+transform: scale(0.5, 2);         /* Width 50%, Height 200% */
+transform: scaleX(0.5);           /* Width 50% */
+transform: scaleY(0.5);           /* Height 50% */
 
-/* translate */
-transform: translate(50px, 50px);
-transform: translateX(10px);
-transform: translateY(10px);
+/* Translate */
+transform: translate(50px, 50px); /* Moves right 50px, down 50px */
+transform: translateX(10px);      /* Moves right 10px */
+transform: translateY(10px);      /* Moves down 10px */
 
-/* skew */
-transform: skew(45deg);
+/* Skew */
+transform: skew(45deg);           /* Slants element 45 degrees horizontally (X-axis) */
+
 ```
 
 ## box-shadow
@@ -58,7 +59,7 @@ transform: skew(45deg);
 It adds shadow effects around an element's frame
 
 ```css
-box-shadow: 2px 2px 10px green;
+box-shadow: 2px 2px 10px green; /* offset-x | offset-y | blur | color */
 ```
 
 ## background-image
@@ -66,7 +67,7 @@ box-shadow: 2px 2px 10px green;
 Lets you set an image as a background
 
 ```css
-background-image: url("");
+background-image: url("image.jpg");
 
 background-size: contain; /* No crop, No scale, Only repeat image to fill the area */
 background-size: cover;   /* Crop but not scale */

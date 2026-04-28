@@ -45,11 +45,9 @@ Used to set an element's border.
 
 - **Shorthand Syntax**
 
-    width | style | color
-
     ```css
     div {
-        border: 2px solid blue;
+        border: 2px solid blue; /* Thickness, Style, Color */
     }
     ```
 
@@ -60,10 +58,10 @@ Used to set an element's border.
     To control an individual side of the box.
 
     ```css
-    border-left
-    border-right
-    border-top
-    border-bottom
+    border-left   /* Left side border */
+    border-right  /* Right side border */
+    border-top    /* top side border */
+    border-bottom /* Bottom side border */
     ```
 
 - **border-radius**
@@ -72,7 +70,7 @@ Used to set an element's border.
 
     ```css
     div {
-        border-radius: 20px;
+        border-radius: 20px; /* Rounds all 4 corners */
     }
 
     div {
@@ -80,7 +78,7 @@ Used to set an element's border.
     }
 
     div {
-        border-top-right-radius: 10px;
+        border-top-right-radius: 10px; /* Sets top right corner radius to 10px */
     }
     ```
 
@@ -92,21 +90,21 @@ Padding is the space between the content and the border. It pushes the border ou
 
 ```css
 div {
-    padding: 50px;
+    padding: 50px; /* All 4 sides */
 }
 
 div {
-    padding-left: 50px;
+    padding-left: 50px; /* Left side */
 }
 ```
 
 - **Padding Sides**
 
     ```css
-    padding-left
-    padding-right
-    padding-top
-    padding-bottom
+    padding-left   /* Left side padding */
+    padding-right  /* Right side padding */
+    padding-top    /* Top side padding */
+    padding-bottom /* Bottom side padding */
     ```
 
 - **Padding Shorthand**
@@ -141,28 +139,28 @@ To set spacing on the outside of border.
 
 ```css
 div {
-    margin: 50px;
+    margin: 50px; /* All 4 sides */
 }
 
 div {
-    margin-left: 50px;
+    margin-left: 50px; /* Left side */
 }
 ```
 
 - **Margin Sides**
 
     ```css
-    margin-left
-    margin-right
-    margin-top
-    margin-bottom
+    margin-left   /* Left side margin */
+    margin-right  /* Right side margin */
+    margin-top    /* Top side margin */
+    margin-bottom /* Bottom side margin */
     ```
 
 - **Margin Shorthand**
 
     Same structure as padding:
 
-    * All sides:
+    * All 4 sides:
 
         ```css
         margin: 10px;
@@ -191,10 +189,10 @@ div {
 It sets whether an element is treated as a block or inline element and the layout used for its children.
 
 ```css
-display: block;       /* Takes full width, starts on a new line */
-display: inline;      /* Fits in line with text */
-display: inline-block;/* Behaves like inline, but allows width & height */
-display: none;        /* Hides the element entirely */
+display: block;        /* Takes full width, starts on a new line */
+display: inline;       /* Fits in line with text */
+display: inline-block; /* Behaves like inline, but allows width & height */
+display: none;         /* Hides the element entirely */
 ```
 
 [MDN Display Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
@@ -235,7 +233,7 @@ display: none;        /* Hides the element entirely */
 
     ```css
     div {
-        width: 50%; /* 50% of parent's width */
+        width: 50%;       /* 50% of parent's width */
         margin-left: 10%; /* 10% of parent's width */
     }
     ```
@@ -248,6 +246,7 @@ display: none;        /* Hides the element entirely */
 
     ```css
     /* If parent font-size is 20px */
+    
     .parent {
         font-size: 20px;
     }

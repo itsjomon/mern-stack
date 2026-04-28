@@ -6,52 +6,44 @@ CSS selectors are used to "find" (or select) the HTML elements you want to style
 
 Select elements based on name, id, class
 
-  - **Universal Selector**
+- **Universal Selector**
 
-    To select everything in a document.
+  ```css
+  /* Selects EVERY element on page */
 
-    ```css
-    * {
-      property: value;
-    }
-
-    /* * is Universal Selector */
-    ```
+  * {
+    property: value;
+  }
+  ```
 
 - **Element Selector**
 
   ```css
+  /* Selects all elements with that tag name */
+
   h1 {
     property: value;
   }
-
-  /* h1 is Element Selector*/
   ```
 
 - **ID Selector**
 
-  Selects an element based on the value of the element's id attribute.
-
-  It is case sensitive. E.g., `#myid` & `#MYID` both are not same.
-
   ```css
-  #my-id {
-    property: value;
-  }
+  /* Selects ONE element with specific id (case sensitive!) */
 
-  /* #my-id is ID Selector*/
+  #my-id {
+    property: value; /* #my-id and #MY-ID are different! */
+  }
   ```
 
 - **Class Selector**
 
-  Selects an element based on their class attribute.
-
   ```css
+  /* Selects ALL elements with that class name (case sensitive!) */
+
   .my-class {
-    property: value;
+    property: value; /* .my-class & .MY-CLASS are not same */
   }
-  
-  /* .my-class is Class Selector*/
   ```
 
 ### Combinator Selectors
@@ -62,52 +54,46 @@ Select elements based on a specific relationship between them.
 
   It is used to select elements that are descendants of a specified element.
 
-  E.g., Selects all paragraphs inside divs.
-
   ```css
-  div p{
+  /* Selects ALL paragraphs inside ANY div */
+
+  div p {
     property: value;
   }
-
-  /* div p is Descendant Selector */
   ```
 
 - **Adjacent/Next Sibling Combinator (+)**
 
   The adjacent sibling selector selects an element that is immediately next to a specified element.
 
-  E.g., Heading3 that comes immediately after any paragraph.
-
   ```css
-  p + h3{
+  /* Selects h3 that comes RIGHT AFTER a paragraph */
+
+  p + h3 {
     property: value;
   }
-
-  /* p + h3 is Sibling Combinator */
   ```
 
 - **Child Combinator (>)**
 
   The child combinator selects all elements that are the children of a specified element.
 
-  E.g., Selects all buttons which are direct children of spans.
-
   ```css
-  span > button{
+  /* Selects buttons that are DIRECT children of spans */
+
+  span > button {
     property: value;
   }
-
-  /* span > button is Child Combinator */
   ```
 
 ### Attribute Selectors
 
 Select elements based on an attribute or attribute value.
 
-E.g., Selects elements based on the presence or value of a given attribute.
-
 ```css
-input[attr="value"]{
+/* Selects inputs with specific attribute/value */
+
+input[attr="value"] {
   property: value;
 }
 ```
@@ -119,10 +105,10 @@ Visit [MDN Attribute Selectors.](https://developer.mozilla.org/en-US/docs/Web/CS
 A keyword added to a selector that specifies a special state of the selected element(s).
 
 ```css
-:hover
-:active
-:checked
-:nth-of-type
+:hover       /* When mouse hovers over element */
+:active      /* When element is being clicked/tapped */
+:checked     /* When checkbox or radio button is selected */
+:nth-of-type /* Selects nth child of a specific type (e.g., 2nd paragraph) */
 ```
 
 Visit [MDN Pseudo-classes.](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
@@ -132,9 +118,9 @@ Visit [MDN Pseudo-classes.](https://developer.mozilla.org/en-US/docs/Web/CSS/Pse
 A keyword added to a selector that lets you style a specific part of the selected element(s).
 
 ```css
-::first-letter
-::first-line
-::selection
+::first-letter /* Styles only the first letter of text */
+::first-line   /* Styles only the first line of text */
+::selection    /* Styles text when user highlights/drags mouse over it */
 ```
 
 Visit [MDN Pseudo-elements.](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
@@ -154,10 +140,8 @@ h2 {
 }
 
 h2 {
-    background-color: blue;
+    background-color: blue; /* Final color is blue */
 }
-
-/* Final color is blue */
 ```
 
 ## Selector Specificity
@@ -174,7 +158,7 @@ To show the most specific thing in the document.
 
 ```css
 h2 {
-     background-color: black !important;
+     background-color: black !important; /* !important - overrides ALL previous rules */
    }
 ```
 
@@ -192,6 +176,6 @@ Inheritance means some CSS properties are automatically passed from a parent ele
 
   ```css
   p {
-    border: inherit;
+    border: inherit; /* Force inheritance */
   }
   ```
