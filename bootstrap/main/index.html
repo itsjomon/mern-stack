@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="mb-1 me-1">
+                Bootstrap
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Product 1</a></li>
+                            <li><a class="dropdown-item" href="#">Product 2</a></li>
+                            <li><a class="dropdown-item" href="#">Product 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container -->
+    <div class="container">
+        <h1>Bootstrap Demo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est praesentium doloribus adipisci aliquid quam natus consequatur iure facilis deserunt fugiat totam, fuga ducimus omnis reiciendis, vero quos alias debitis ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellat accusamus aperiam excepturi id eligendi error? Perspiciatis molestias iste alias, sit nisi sapiente, optio accusantium blanditiis, voluptatem facere at pariatur.</p>
+
+        <!-- Button -->
+        <h2>Button</h2>
+        <button class="btn btn-outline-primary">Button 1</button>
+        <button class="btn btn-secondary">Button 2</button>
+        <button class="btn btn-outline-danger">Button 3</button>
+        <button class="btn btn-success">Button 4</button>
+        <button class="btn btn-warning disabled">Button 5</button>
+        <a href="#" class="btn btn-dark">Google</a>
+        <hr>
+
+        <!-- Badge -->
+        <h2>Badge</h2>
+        <h3>notifications <span class="badge bg-primary">20+</span></h3>
+        <br>
+        <button class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                99+
+            </span>
+        </button>
+        <hr>
+
+        <!-- Alert -->
+        <h2>Alert</h2>
+        <div class="alert alert-danger">
+            Download Failed! Please try again.
+        </div>
+        <div class="alert alert-success">
+            Congratulations! Download Completed.
+        </div>
+        <div class="alert alert-warning alert-dismissible fade show">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        <hr>
+
+        <!-- Button group -->
+        <h2>Button group</h2>
+        <div class="btn-group">
+            <button class="btn btn-outline-danger">One</button>
+            <button class="btn btn-outline-warning">Two</button>
+            <button class="btn btn-outline-success">Three</button>
+        </div>
+        <hr>
+
+        <!-- Card -->
+        <h2>Card</h2>
+        <div class="card" style="width: 20rem;">
+            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" class="card-img-top" alt="bootstrap">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quisquam dolores exercitationem provident blanditiis ab odio praesentium quas modi, excepturi quasi nihil, quibusdam, id sed fugit. Rem corporis velit sunt.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Grid layout -->
+        <h2>Grid layout</h2>
+        <div class="row">
+            <div class="col bg-primary text-white text-center p-3">Column 1</div>
+            <div class="col-9 bg-secondary text-white text-center p-3">Column 2</div>
+        </div>
+        <div class="row mt-3">
+            <div class="col bg-primary text-white text-center p-3">Column 1</div>
+            <div class="col bg-secondary text-white text-center p-3">Column 2</div>
+            <div class="col bg-success text-white text-center p-3">Column 3</div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-xl-8 bg-warning text-white text-center p-3">Column 1</div>
+            <div class="col-xl-4 bg-danger text-white text-center p-3">Column 2</div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6 col-xl-4 bg-info text-white text-center p-3">Column 1
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum explicabo iure eum aperiam optio iusto minima debitis ratione aliquam soluta dolores, aut aspernatur quisquam odit corrupti dolore atque porro minus.
+            </div>
+            <div class="col-md-6 col-xl-4 bg-dark text-white text-center p-3">Column 2
+                <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat sequi repellendus autem maxime, recusandae quos ab quisquam deserunt fugiat impedit, odio voluptatem id voluptas voluptates ullam nihil velit fugit! Illum?
+            </div>
+            <div class="col-md-6 col-xl-4 bg-light text-dark text-center p-3">Column 3
+                <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, repudiandae distinctio quod quae officia assumenda unde sunt ut nostrum, similique fuga laudantium officiis nulla nihil? Sed aliquam molestiae officia nisi?
+            </div>
+        </div>
+        <hr>
+        
+        <!-- Grid (vertical alignment) -->
+        <h2>Grid (Vertical alignment)</h2>
+        <div class="row text-center">
+            <div class="row align-items-end">
+                <div class="col bg-primary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui vitae quis dolores voluptatibus cupiditate numquam aliquid. Quisquam, magnam. Quisquam, magnam. Quisquam, magnam. Lorem ipsum dolor sit amet.
+                </div>
+                <div class="col bg-success">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui vitae quis dolores voluptatibus cupiditate numquam aliquid. Quisquam, magnam. Quisquam, magnam. Quisquam, magnam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi doloremque illum suscipit beatae facilis amet excepturi modi. Nulla ducimus accusamus dignissimos rem molestiae et, reiciendis eius voluptatibus exercitationem quas doloremque.
+                </div>
+                <div class="col bg-warning">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui vitae quis dolores voluptatibus cupiditate numquam aliquid.
+                </div>
+                <div class="col bg-danger align-self-start">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui vitae quis dolores voluptatibus cupiditate numquam aliquid. Quisquam, magnam. Quisquam, magnam. Quisquam, magnam.
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Form control -->
+        <h2>Form demo</h2>
+        <form>
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" placeholder="example@email.com" class="form-control" id="email">
+                </div>
+
+                <div class="mb-3 col-md-6">
+                    <label for="pass" class="form-label">Password</label>
+                    <input type="password" placeholder="Enter your password" class="form-control" id="pass">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="add" class="form-label">Address</label>
+                <input type="text" placeholder="Enter your Address" class="form-control" id="add">
+            </div>
+
+            <div class="mb-3">
+                <select class="form-select">
+                    <option value="" selected>Select your country</option>
+                    <option value="">India</option>
+                    <option value="">China</option>
+                    <option value="">Russia</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+
+            <div class="form-check mb-3">
+                <label for="agree" class="form-check-label">Agree</label>
+                <input type="checkbox" id="agree" class="form-check-input">
+            </div>
+
+            <div class="form-check mb-3">
+                <input type="radio" class="form-check-input" id="yn">
+                <label class="form-check-label" for="yn">Yes/No</label>
+            </div>
+
+            <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" id="switch">
+                <label class="form-check-label" for="switch">Default switch checkbox input</label>
+            </div>
+        </form>
+        <hr>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
