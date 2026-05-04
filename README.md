@@ -19,3 +19,5 @@ Full stack web development using MERN (MongoDB, Express, React, Node.js), along 
   * [Mini Project (Navbar)](css/mini-project)
   * [Project (Spotify Replica)](css/project)
 - [Bootstrap](bootstrap)
+- [JavaScript](javascript)
+  * [Part 1](javascript/part-1)
