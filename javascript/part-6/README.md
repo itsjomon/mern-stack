@@ -145,7 +145,7 @@ A function that does one or both:
 - Returns a function
 
 ```js
-// Higher order Functions - Corrected Version
+// Higher order Functions
 
 // 1. Takes a function as argument
 function multipleGreet(fn, n) {
@@ -158,7 +158,7 @@ let greet = () => console.log("hello");
 multipleGreet(greet, 2);  // hello hello
 
 
-// 2. Returns a function (Corrected logic)
+// 2. Returns a function
 function oddEvenTest(req) {
     if(req == "odd") {
         return function(n) {
