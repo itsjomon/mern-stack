@@ -39,9 +39,9 @@ div {
 Used to set an element's border.
 
 - **Components**:
-    * `border-width`: thickness of the border
-    * `border-style`: style such as `solid`, `dashed`, `dotted`, etc.
-    * `border-color`: sets the border's color
+    - `border-width`: thickness of the border
+    - `border-style`: style such as `solid`, `dashed`, `dotted`, etc.
+    - `border-color`: sets the border's color
 
 - **Shorthand Syntax**
 
@@ -109,25 +109,25 @@ div {
 
 - **Padding Shorthand**
 
-    * For all 4 sides:
+    - For all 4 sides:
 
         ```css
         padding: 10px;
         ```
 
-    * top & bottom | left & right:
+    - top & bottom | left & right:
 
         ```css
         padding: 10px 20px;
         ```
 
-    * top | left & right | bottom:
+    - top | left & right | bottom:
 
         ```css
         padding: 10px 20px 30px;
         ```
 
-    * top | right | bottom | left:
+    - top | right | bottom | left:
 
         ```css
         padding: 10px 20px 30px 40px;
@@ -160,25 +160,25 @@ div {
 
     Same structure as padding:
 
-    * All 4 sides:
+    - All 4 sides:
 
         ```css
         margin: 10px;
         ```
 
-    * Top & Bottom | Left & Right:
+    - Top & Bottom | Left & Right:
 
         ```css
         margin: 10px 20px;
         ```
 
-    * Top | Left & Right | Bottom:
+    - Top | Left & Right | Bottom:
 
         ```css
         margin: 10px 20px 30px;
         ```
 
-    * Top | Right | Bottom | Left:
+    - Top | Right | Bottom | Left:
     
         ```css
         margin: 10px 20px 30px 40px;
@@ -256,7 +256,7 @@ display: none;         /* Hides the element entirely */
     }
     ```
 
-    * **Drawback of em**: Snowball effect in nested elements 
+    - **Drawback of em**: Snowball effect in nested elements 
 
 - **`rem` (Relative to root `<html>` font size)**
 

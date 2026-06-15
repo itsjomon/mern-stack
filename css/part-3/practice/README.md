@@ -8,12 +8,12 @@ Recreate the given image:
 
 - Create a div & 3 sibling divs inside it
 - for the outer div set following styling
-    * height 200px, width 70px, and border 2px solid black color
+    - height 200px, width 70px, and border 2px solid black color
 
 - For the outer divs set following styling
-    * height 50px, width 50px, and border 2px solid black color
-    * Also set margin 10px
-    * Make inner divs circular in shape and give them individual colors (red, yellow, and green)
+    - height 50px, width 50px, and border 2px solid black color
+    - Also set margin 10px
+    - Make inner divs circular in shape and give them individual colors (red, yellow, and green)
 
 
 ## Qn 2.
