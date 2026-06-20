@@ -29,3 +29,4 @@ Full stack web development using MERN (MongoDB, Express, React, Node.js), along 
   - [Part 7](javascript/part-7)
   - [Part 8](javascript/part-8)
   - [Part 9](javascript/part-9)
+  - [Part 10](javascript/part-10)
