@@ -14,3 +14,4 @@ Full-stack web development with the MERN stack (MongoDB, Express.js, React, Node
 - [Setup and Installation](docs/setup.md)
 - [HTML](html)
   - [Level 1 - Part A](html/level-1/part-a)
+  - [Level 1 - Part B](html/level-1/part-b)
