@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Input element is used to create multiple form controls. There are multiple types of inputs that can be created using type attribute. -->
+
+    <!-- <input>: The HTML Input element https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input -->
+
+    <!-- Some Inputs -->
+    <form action="/action.php">
+        Username: <input type="text"> <br><br>
+
+        Password: <input type="password"> <br><br>
+
+        Current time: <input type="time"> <br><br>
+
+        Lucky number: <input type="number"> <br><br>
+
+        Favourite colour: <input type="color">
+    </form>
+
+    <hr>
+
+    <!-- Checkbox -->
+    <form action="/server">
+        <input type="checkbox" id="age" name="age" checked> <!-- checked for default tick mark -->
+        <label for="age">I Am 18+</label>
+        <button>Submit</button>
+    </form>
+
+    <hr>
+
+    <form action="/server">
+        <input type="checkbox" id="math" name="sub" value="math">
+        <label for="math">Mathematics</label>
+
+        <input type="checkbox" id="eng" name="sub" value="eng">
+        <label for="eng">English</label>
+
+        <input type="checkbox" id="chem" name="sub" value="chem">
+        <label for="chem">Chemistry</label>
+        <button>Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Radio -->
+    <form action="/server">
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">Apple</label>
+
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">Mango</label>
+
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">Banana</label>
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Drop Down/Select -->
+    <form action="/server">
+        <label for="profession">Choose your profession</label>
+        <select name="profession" id="profession">
+            <option value="std" selected>Student</option> <!-- Selected for default selection -->
+            <option value="dev">Developer</option>
+        </select>
+        <button>Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Range -->
+    <form action="/server">
+        <label for="vol">Select volume level:</label>
+        <input type="range" min="0" max="100" id="vol" name="vol" step="10" value="50"> <!-- value="50" sets the volume to 50% by default. -->
+        <button>Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Textarea -->
+    <form action="/server">
+        <label for="feedback">Please give your valuable feedback:</label>
+        <br>
+        <textarea id="feedback" name="feedback" rows="10" cols="50" placeholder="Write your feedback"></textarea>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action.php">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+
+        <div>
+            <label>Age:<input type="number" id="age" placeholder="Enter your age"></label>
+        </div>
+    </form>
+</body>
+</html>
+
+<!--
+1. <label>: Defines a title or description for an input. Improves form usability and accessibility.
+2. "placeholder": A temporary hint inside the input showing what format or data to enter.
+
+How to link a Label to an Input:
+- Option A (Explicit): Match the label's 'for' attribute with the input's 'id' attribute.
+- Option B (Implicit): Wrap the <label> element directly around the <input> element (no 'for' attribute needed).
+-->
