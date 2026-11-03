@@ -19,3 +19,4 @@ Full-stack web development with the MERN stack (MongoDB, Express.js, React, Node
   - [Level 3](html/level-3)
 - [CSS](css)
   - [Part 1](css/part-1)
+  - [Part 2](css/part-2)
