@@ -1,0 +1,41 @@
+#box1 {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width ease-in 2s 0.5s; /* Ans 1 */
+}
+
+#box1:hover {
+  width: 600px;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transform: translate(200px, 200px) rotate(90deg); /* Ans 2 */
+}
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  transform: skewX(20deg); /* Ans 3 */
+}
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  background: lightgreen;
+  box-shadow: 2px 2px 5px green; /* Ans 4 */
+}
+
+#my-pic {
+  width: 200px;
+  height: 200px;
+  background: pink;
+  /* Photo by Zeynep S. on Unsplash (https://unsplash.com/photos/sunflower-field-during-day-time-lk3F07BN8T8) */
+  background-image: url("assets/bg-image.jpg"); /* Ans 5 */
+  background-size: cover; /* Ans 5 */
+  opacity: 0.5; /* Ans 5 */
+}
