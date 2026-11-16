@@ -1,0 +1,36 @@
+h2 {
+    display: inline;
+    background-color: blanchedalmond;
+}
+
+.span-1 {
+    display: block;
+    background-color: aquamarine;
+}
+
+.span-2 {
+    height: 100px; /* ignored: inline elements can't have height */
+    width: 200px;  /* ignored: inline elements can't have width */
+    padding: 20px; /* vertical padding renders but doesn't push lines */
+    margin: 20px;  /* only left/right apply; top/bottom ignored */
+    border: 2px solid black;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.div {
+    display: inline-block;
+    background-color: aqua;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+/* #three {
+    display: none;
+} */
