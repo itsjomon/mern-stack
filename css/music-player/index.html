@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <i class="fa-solid fa-folder"></i>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <i class="fa-regular fa-circle-left"></i>
+                    <i class="fa-regular fa-circle-right hide"></i>
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="sticky-badge nav-items hide">Explore Premium</button>
+                    <button class="sticky-badge nav-items dark-badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-items"></i>
+                </div>
+            </div>
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://picsum.photos/id/39/200" alt="Cover 1" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your weekly dose of the planet's top 50 tracks</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/33/200" alt="Cover 2" class="card-img">
+                    <p class="card-title">Song 1</p>
+                    <p class="card-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, excepturi!</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/34/200" alt="Cover 3" class="card-img">
+                    <p class="card-title">Song 2</p>
+                    <p class="card-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, placeat?</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://picsum.photos/id/35/200" alt="Cover 4" class="card-img">
+                    <p class="card-title">Song 3</p>
+                    <p class="card-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, laudantium?</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/37/200" alt="Cover 5" class="card-img">
+                    <p class="card-title">Song 4</p>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, neque?</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/38/200" alt="Cover 6" class="card-img">
+                    <p class="card-title">Song 5</p>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, repudiandae!</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/55/200" alt="Cover 7" class="card-img">
+                    <p class="card-title">Song 6</p>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quaerat.</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/53/200" alt="Cover 8" class="card-img">
+                    <p class="card-title">Song 7</p>
+                    <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, veniam.</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/59/200" alt="Cover 9" class="card-img">
+                    <p class="card-title">Song 8</p>
+                    <p class="card-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, eaque.</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://picsum.photos/id/58/200" alt="Cover 10" class="card-img">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Most streamed hits taking over the world this week</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/78/200" alt="Cover 11" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Hottest tracks ruling Indian charts right now</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/id/39/200" alt="Cover 12" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your weekly dose of the planet's top 50 tracks</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-img">
+                    <img src="https://picsum.photos/id/83/200" alt="Cover 13">
+                </div>
+                <div class="album-info">
+                    <p class="title">Forest</p>
+                    <p class="artist">GreenForest</p>
+                </div>
+                <div class="album-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <label class="volume-control" for="volume">
+                    <i class="fa-solid fa-volume"></i>
+                    <input type="range" id="volume" class="volume-bar" min="0" max="100" />
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
